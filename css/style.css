@@ -1,6 +1,8 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #0404DE;
+  font-size: 16px;
+  line-height: 2.0;
 }
 
 nav {
@@ -14,6 +16,17 @@ nav {
   margin: 20px;
   width: 100px;
 }
+
+/* nav links */
+a {
+  text-decoration: none;
+}
+
+/* I wasn't sure if these brackets needed to be on separate lines like the other code, but I copied the checkpoint version :) */
+a:link { color: #0070BB; }
+a:visited { color: #23C0D4; }
+a:hover { color: #ffffff; }
+a:active { color: #0070BD; }
 
 .large-pic {
   width: 100%;
@@ -49,4 +62,27 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+/* main title */
+h1 {
+  font-size: 3em;
+}
+
+/* title intro */
+h3 {
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+.author {
+  font-size: 1.2em;
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/* article text */
+p {
+  padding-bottom: 15px;
 }
